@@ -1,5 +1,5 @@
 function positive_Sum(arr){
-/*1ere Methode */
+/*1ere Méthode */
 
   /*   let sum=0
     for(let i=0;i<arr.length;i++ ){
@@ -20,7 +20,7 @@ function positive_Sum(arr){
     */
 
 
-    /*2éme Methode */
+    /*2ème Méthode */
     return arr.filter((x)=> x > 0).reduce((acc,current)=>acc + current,0)
 
  

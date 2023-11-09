@@ -1,17 +1,18 @@
 //Sum-Without-The-Highest-And-The-Lowest-Number
 function sum_Array(array){
    if(array == null) return 0
-  /*  return array
+
+   /* Method 2*/ 
+   return array
    .sort((a,b) => a-b)
    .slice(1,-1)
-   .reduce((acc,current)=> acc + current,0) */
+   .reduce((acc,current)=> acc + current,0) 
 
 
-   return array
-   .filter((x)=>x!==Math.min(...array) && x!== Math.max(...array))
-   .reduce((acc,current) => acc + current ,0)
+ 
 
 
+   /* Method 1*/ 
 
 
 

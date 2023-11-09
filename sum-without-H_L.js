@@ -21,6 +21,11 @@ function sum_Array(array){
    // let filterArray = array.filter((x) => x!==max_value && x!==min_value)
    // let newArray = filterArray.reduce((acc,current) => acc + current ,0)
    // console.log(newArray)
+
+
+
+   
+
 }
 console.log(sum_Array([1,10,8,10,7,3])
 )
